@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/hexutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/crypto/secp256k1"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

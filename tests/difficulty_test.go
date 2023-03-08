@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/params"
 )
 
 var (

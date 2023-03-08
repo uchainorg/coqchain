@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

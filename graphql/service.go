@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Ankr-network/coqchain/internal/ethapi"
-	"github.com/Ankr-network/coqchain/node"
+	"github.com/uchainorg/coqchain/internal/ethapi"
+	"github.com/uchainorg/coqchain/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

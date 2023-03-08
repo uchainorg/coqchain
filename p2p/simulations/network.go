@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/simulations/adapters"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

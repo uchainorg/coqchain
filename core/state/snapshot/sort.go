@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // hashes is a helper to implement sort.Interface.

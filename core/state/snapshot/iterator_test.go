@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

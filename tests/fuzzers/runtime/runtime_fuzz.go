@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/Ankr-network/coqchain/core/vm/runtime"
+	"github.com/uchainorg/coqchain/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

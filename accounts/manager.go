@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/event"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

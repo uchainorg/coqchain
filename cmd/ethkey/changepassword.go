@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

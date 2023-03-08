@@ -32,7 +32,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/log"
 	"github.com/davecgh/go-spew/spew"
 )
 
@@ -349,7 +349,7 @@ func TestClientSubscribeClose(t *testing.T) {
 	}
 }
 
-// This test reproduces https://github.com/Ankr-network/coqchain/issues/17837 where the
+// This test reproduces https://github.com/uchainorg/coqchain/issues/17837 where the
 // client hangs during shutdown when Unsubscribe races with Client.Close.
 func TestClientCloseUnsubscribeRace(t *testing.T) {
 	server := newTestServer()
@@ -433,7 +433,7 @@ func TestClientSubscriptionUnsubscribeServer(t *testing.T) {
 }
 
 // This checks that the subscribed channel can be closed after Unsubscribe.
-// It is the reproducer for https://github.com/Ankr-network/coqchain/issues/22322
+// It is the reproducer for https://github.com/uchainorg/coqchain/issues/22322
 func TestClientSubscriptionChannelClose(t *testing.T) {
 	t.Parallel()
 

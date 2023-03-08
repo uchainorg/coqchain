@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/simulations/adapters"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

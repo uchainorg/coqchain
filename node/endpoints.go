@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

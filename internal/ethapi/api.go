@@ -24,26 +24,26 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/consensus/misc"
-	"github.com/Ankr-network/coqchain/consensus/posa"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rlp"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/consensus/misc"
+	"github.com/uchainorg/coqchain/consensus/posa"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/davecgh/go-spew/spew"
 )
 
@@ -501,7 +501,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/Ankr-network/coqchain/wiki/Management-APIs#personal_sign
+// https://github.com/uchainorg/coqchain/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -529,7 +529,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/Ankr-network/coqchain/wiki/Management-APIs#personal_ecRecover
+// https://github.com/uchainorg/coqchain/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

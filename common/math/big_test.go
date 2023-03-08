@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

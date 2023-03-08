@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

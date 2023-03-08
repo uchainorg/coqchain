@@ -23,16 +23,16 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

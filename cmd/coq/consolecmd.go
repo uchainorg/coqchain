@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/console"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/console"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

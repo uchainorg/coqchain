@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 type AddrLocker struct {

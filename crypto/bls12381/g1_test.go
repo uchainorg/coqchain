@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func (g *G1) one() *PointG1 {

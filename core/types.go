@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

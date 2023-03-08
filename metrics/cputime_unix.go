@@ -22,7 +22,7 @@ package metrics
 import (
 	syscall "golang.org/x/sys/unix"
 
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

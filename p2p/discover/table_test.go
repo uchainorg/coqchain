@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/p2p/netutil"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

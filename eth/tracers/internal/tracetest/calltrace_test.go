@@ -26,23 +26,23 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/eth/tracers"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rlp"
-	"github.com/Ankr-network/coqchain/tests"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/eth/tracers"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rlp"
+	"github.com/uchainorg/coqchain/tests"
+	"github.com/uchainorg/coqchain/utils/extdb"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/Ankr-network/coqchain/eth/tracers/js"
-	_ "github.com/Ankr-network/coqchain/eth/tracers/native"
+	_ "github.com/uchainorg/coqchain/eth/tracers/js"
+	_ "github.com/uchainorg/coqchain/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

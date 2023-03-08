@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

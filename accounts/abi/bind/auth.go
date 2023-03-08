@@ -24,13 +24,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/accounts/external"
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/accounts/external"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 func testNode(i int) *enode.Node {

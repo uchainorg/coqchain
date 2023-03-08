@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/eth/ethconfig"
+	"github.com/uchainorg/coqchain/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

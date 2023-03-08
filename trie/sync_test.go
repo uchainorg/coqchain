@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/ethdb/memorydb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

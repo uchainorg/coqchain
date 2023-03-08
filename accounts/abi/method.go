@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

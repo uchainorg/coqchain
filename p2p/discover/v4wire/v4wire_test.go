@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // EIP-8 test vectors.

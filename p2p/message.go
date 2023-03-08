@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // Msg defines the structure of a p2p message.

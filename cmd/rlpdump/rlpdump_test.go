@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

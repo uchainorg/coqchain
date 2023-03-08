@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

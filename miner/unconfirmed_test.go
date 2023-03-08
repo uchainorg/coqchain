@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

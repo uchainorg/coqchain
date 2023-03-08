@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/simulations/adapters"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

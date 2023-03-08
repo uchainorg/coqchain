@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/crypto"
 )
 
 func TestKDF(t *testing.T) {

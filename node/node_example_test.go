@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Ankr-network/coqchain/node"
+	"github.com/uchainorg/coqchain/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

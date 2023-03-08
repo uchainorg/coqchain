@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/vm/runtime"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/vm/runtime"
 )
 
 func ExampleExecute() {

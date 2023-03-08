@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

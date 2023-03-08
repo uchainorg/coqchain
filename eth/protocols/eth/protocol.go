@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/forkid"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/forkid"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -19,8 +19,8 @@ package les
 import (
 	"errors"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 type ulc struct {

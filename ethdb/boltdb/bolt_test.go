@@ -3,8 +3,8 @@ package boltdb
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/ethdb/dbtest"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb/dbtest"
 )
 
 func TestBoltDB(t *testing.T) {

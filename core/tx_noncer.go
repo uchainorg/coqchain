@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/state"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

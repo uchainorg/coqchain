@@ -17,8 +17,8 @@
 package misc
 
 import (
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

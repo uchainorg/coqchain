@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

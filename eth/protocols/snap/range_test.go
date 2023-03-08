@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

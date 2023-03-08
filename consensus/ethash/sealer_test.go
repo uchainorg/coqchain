@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/internal/testlog"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/internal/testlog"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

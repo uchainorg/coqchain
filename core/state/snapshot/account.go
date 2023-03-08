@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // Account is a modified version of a state.Account, where the root is replaced

@@ -1,4 +1,4 @@
-module github.com/Ankr-network/coqchain
+module github.com/uchainorg/coqchain
 
 go 1.19
 

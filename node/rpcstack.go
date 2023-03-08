@@ -29,8 +29,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/rs/cors"
 )
 

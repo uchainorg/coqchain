@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/eth/protocols/eth"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/eth/protocols/eth"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 // Tests that fast sync is disabled after a successful sync cycle.

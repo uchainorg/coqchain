@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/nat"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/nat"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 const (

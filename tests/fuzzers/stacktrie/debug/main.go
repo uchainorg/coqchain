@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/tests/fuzzers/stacktrie"
+	"github.com/uchainorg/coqchain/tests/fuzzers/stacktrie"
 )
 
 func main() {

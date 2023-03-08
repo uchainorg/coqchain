@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/signer/core/apitypes"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/signer/core/apitypes"
 )
 
 func mixAddr(a string) (*common.MixedcaseAddress, error) {

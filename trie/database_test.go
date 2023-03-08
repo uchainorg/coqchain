@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/ethdb/memorydb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

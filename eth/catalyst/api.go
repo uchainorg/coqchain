@@ -22,17 +22,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus/misc"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/eth"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/node"
-	chainParams "github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rpc"
-	"github.com/Ankr-network/coqchain/trie"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus/misc"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/eth"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/node"
+	chainParams "github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rpc"
+	"github.com/uchainorg/coqchain/trie"
 )
 
 // Register adds catalyst APIs to the node.

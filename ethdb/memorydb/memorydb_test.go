@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/ethdb/dbtest"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

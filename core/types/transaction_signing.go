@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

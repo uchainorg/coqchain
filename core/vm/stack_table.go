@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/params"
 )
 
 func minSwapStack(n int) int {

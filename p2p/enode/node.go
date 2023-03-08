@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

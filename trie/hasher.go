@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

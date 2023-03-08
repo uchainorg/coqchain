@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/tests"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

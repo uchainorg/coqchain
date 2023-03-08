@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/Ankr-network/coqchain/common/bitutil"
+	"github.com/uchainorg/coqchain/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

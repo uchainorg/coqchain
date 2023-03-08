@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	vfc "github.com/Ankr-network/coqchain/les/vflux/client"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	vfc "github.com/uchainorg/coqchain/les/vflux/client"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // Constants to match up protocol versions and messages

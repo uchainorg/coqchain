@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/eth/ethconfig"
-	"github.com/Ankr-network/coqchain/ethclient"
-	"github.com/Ankr-network/coqchain/ethstats"
-	"github.com/Ankr-network/coqchain/les"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/nat"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/eth/ethconfig"
+	"github.com/uchainorg/coqchain/ethclient"
+	"github.com/uchainorg/coqchain/ethstats"
+	"github.com/uchainorg/coqchain/les"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/nat"
+	"github.com/uchainorg/coqchain/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/Ankr-network/coqchain/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/uchainorg/coqchain/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

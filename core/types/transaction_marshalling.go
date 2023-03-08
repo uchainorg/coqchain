@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

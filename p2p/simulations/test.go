@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // NoopService is the service that does not do anything

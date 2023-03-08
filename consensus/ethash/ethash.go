@@ -34,10 +34,10 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

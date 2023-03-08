@@ -21,9 +21,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

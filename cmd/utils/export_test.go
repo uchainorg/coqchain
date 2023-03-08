@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

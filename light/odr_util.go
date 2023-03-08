@@ -22,11 +22,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

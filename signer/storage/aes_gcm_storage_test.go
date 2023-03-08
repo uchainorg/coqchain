@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/log"
 	"github.com/mattn/go-colorable"
 )
 

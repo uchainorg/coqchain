@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

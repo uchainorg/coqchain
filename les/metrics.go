@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/Ankr-network/coqchain/metrics"
-	"github.com/Ankr-network/coqchain/p2p"
+	"github.com/uchainorg/coqchain/metrics"
+	"github.com/uchainorg/coqchain/p2p"
 )
 
 var (

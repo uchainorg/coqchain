@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/Ankr-network/coqchain/core/forkid"
-	"github.com/Ankr-network/coqchain/p2p/dnsdisc"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/core/forkid"
+	"github.com/uchainorg/coqchain/p2p/dnsdisc"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

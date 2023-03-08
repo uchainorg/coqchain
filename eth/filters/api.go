@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // filter is a helper struct that holds meta information over the filter type

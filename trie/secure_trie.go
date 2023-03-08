@@ -19,10 +19,10 @@ package trie
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

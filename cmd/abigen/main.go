@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/common/compiler"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/internal/flags"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/common/compiler"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/internal/flags"
+	"github.com/uchainorg/coqchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

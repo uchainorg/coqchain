@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/Ankr-network/coqchain/issues." +
+				"https://github.com/uchainorg/coqchain/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

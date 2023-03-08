@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 func TestState(t *testing.T) {

@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 const defaultConnectedBias = time.Minute * 3

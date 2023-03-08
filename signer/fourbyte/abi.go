@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

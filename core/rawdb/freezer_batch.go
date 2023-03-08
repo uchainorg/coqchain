@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/rlp"
 	"github.com/golang/snappy"
 )
 

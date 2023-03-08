@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

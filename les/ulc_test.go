@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 func TestULCAnnounceThresholdLes2(t *testing.T) { testULCAnnounceThreshold(t, 2) }

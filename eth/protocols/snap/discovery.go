@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

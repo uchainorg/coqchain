@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/utils"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/utils"
 	"go.etcd.io/bbolt"
 )
 

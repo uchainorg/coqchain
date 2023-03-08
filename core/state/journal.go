@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

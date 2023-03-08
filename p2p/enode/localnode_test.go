@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

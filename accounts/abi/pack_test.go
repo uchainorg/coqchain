@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

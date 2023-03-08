@@ -29,10 +29,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/crypto/ecies"
-	"github.com/Ankr-network/coqchain/p2p/simulations/pipes"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/crypto/ecies"
+	"github.com/uchainorg/coqchain/p2p/simulations/pipes"
+	"github.com/uchainorg/coqchain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

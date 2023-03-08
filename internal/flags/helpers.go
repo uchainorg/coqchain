@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

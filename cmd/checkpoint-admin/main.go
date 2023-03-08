@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ankr-network/coqchain/common/fdlimit"
-	"github.com/Ankr-network/coqchain/internal/flags"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common/fdlimit"
+	"github.com/uchainorg/coqchain/internal/flags"
+	"github.com/uchainorg/coqchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

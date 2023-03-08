@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/accounts/external"
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/contracts/checkpointoracle"
-	"github.com/Ankr-network/coqchain/ethclient"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/accounts/external"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/contracts/checkpointoracle"
+	"github.com/uchainorg/coqchain/ethclient"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

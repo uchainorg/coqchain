@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/bitutil"
-	"github.com/Ankr-network/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/common/bitutil"
+	"github.com/uchainorg/coqchain/core/rawdb"
 )
 
 const (

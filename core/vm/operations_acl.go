@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

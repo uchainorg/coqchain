@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/tests/fuzzers/difficulty"
+	"github.com/uchainorg/coqchain/tests/fuzzers/difficulty"
 )
 
 func main() {

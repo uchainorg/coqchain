@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/params"
 	"github.com/holiman/uint256"
 )
 

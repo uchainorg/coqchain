@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/rpc"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/rpc"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 func TestFeeHistory(t *testing.T) {

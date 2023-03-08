@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

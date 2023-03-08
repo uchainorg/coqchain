@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

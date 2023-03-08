@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // Backend wraps all methods required for mining.

@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

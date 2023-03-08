@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

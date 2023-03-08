@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 func TestSimulatedBackend(t *testing.T) {

@@ -24,16 +24,16 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/state/snapshot"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
-	"github.com/Ankr-network/coqchain/rlp"
-	"github.com/Ankr-network/coqchain/trie"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/state/snapshot"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
+	"github.com/uchainorg/coqchain/rlp"
+	"github.com/uchainorg/coqchain/trie"
 )
 
 type revision struct {
@@ -662,7 +662,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/Ankr-network/coqchain/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/uchainorg/coqchain/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

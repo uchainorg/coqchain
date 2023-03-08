@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 type fuzzer struct {

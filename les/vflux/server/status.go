@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

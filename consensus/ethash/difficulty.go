@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/types"
 	"github.com/holiman/uint256"
 )
 

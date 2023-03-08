@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/internal/ethapi"
-	"github.com/Ankr-network/coqchain/internal/flags"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rlp"
-	"github.com/Ankr-network/coqchain/rpc"
-	"github.com/Ankr-network/coqchain/signer/core"
-	"github.com/Ankr-network/coqchain/signer/core/apitypes"
-	"github.com/Ankr-network/coqchain/signer/fourbyte"
-	"github.com/Ankr-network/coqchain/signer/rules"
-	"github.com/Ankr-network/coqchain/signer/storage"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/internal/ethapi"
+	"github.com/uchainorg/coqchain/internal/flags"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rpc"
+	"github.com/uchainorg/coqchain/signer/core"
+	"github.com/uchainorg/coqchain/signer/core/apitypes"
+	"github.com/uchainorg/coqchain/signer/fourbyte"
+	"github.com/uchainorg/coqchain/signer/rules"
+	"github.com/uchainorg/coqchain/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -789,7 +789,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/Ankr-network/coqchain/issues/20123
+	// https://github.com/uchainorg/coqchain/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

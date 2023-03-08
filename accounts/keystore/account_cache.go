@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

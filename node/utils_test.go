@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

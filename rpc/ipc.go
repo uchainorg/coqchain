@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p/netutil"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

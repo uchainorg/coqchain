@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/core/asm"
+	"github.com/uchainorg/coqchain/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

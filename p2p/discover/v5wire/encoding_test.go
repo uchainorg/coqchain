@@ -31,10 +31,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

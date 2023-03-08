@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

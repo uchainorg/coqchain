@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ankr-network/coqchain/internal/flags"
+	"github.com/uchainorg/coqchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

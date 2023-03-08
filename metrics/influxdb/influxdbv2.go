@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

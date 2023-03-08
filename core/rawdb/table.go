@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/Ankr-network/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

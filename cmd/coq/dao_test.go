@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/Ankr-network/coqchain/common"
+import "github.com/uchainorg/coqchain/common"
 
 var V5Bootnodes = []string{}
 

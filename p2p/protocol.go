@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

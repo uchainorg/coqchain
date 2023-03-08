@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 var (

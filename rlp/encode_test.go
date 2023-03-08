@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/math"
+	"github.com/uchainorg/coqchain/common/math"
 )
 
 type testEncoder struct {

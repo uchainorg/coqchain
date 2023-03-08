@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/eth/protocols/eth"
-	"github.com/Ankr-network/coqchain/eth/protocols/snap"
+	"github.com/uchainorg/coqchain/eth/protocols/eth"
+	"github.com/uchainorg/coqchain/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

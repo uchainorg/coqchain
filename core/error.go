@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 var (

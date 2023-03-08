@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

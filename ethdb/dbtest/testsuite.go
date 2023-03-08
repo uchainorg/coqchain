@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

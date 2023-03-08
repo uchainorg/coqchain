@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/console/prompt"
-	"github.com/Ankr-network/coqchain/internal/ethapi"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/console/prompt"
+	"github.com/uchainorg/coqchain/internal/ethapi"
+	"github.com/uchainorg/coqchain/log"
 )
 
 type CommandlineUI struct {

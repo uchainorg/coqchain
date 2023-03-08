@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

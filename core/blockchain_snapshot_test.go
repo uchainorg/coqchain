@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

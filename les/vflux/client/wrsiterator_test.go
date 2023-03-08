@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 var (

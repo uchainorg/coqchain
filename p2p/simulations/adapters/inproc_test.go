@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/p2p/simulations/pipes"
+	"github.com/uchainorg/coqchain/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

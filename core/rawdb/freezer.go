@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
+	"github.com/uchainorg/coqchain/params"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

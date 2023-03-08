@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p/discover"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/nat"
-	"github.com/Ankr-network/coqchain/p2p/netutil"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p/discover"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/nat"
+	"github.com/uchainorg/coqchain/p2p/netutil"
 )
 
 func main() {

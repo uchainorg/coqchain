@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

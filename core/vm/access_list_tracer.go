@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

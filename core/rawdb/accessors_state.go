@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

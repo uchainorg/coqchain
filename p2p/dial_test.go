@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/internal/testlog"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/netutil"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/internal/testlog"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

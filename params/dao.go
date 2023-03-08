@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

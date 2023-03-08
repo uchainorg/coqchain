@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/common/math"
+	"github.com/uchainorg/coqchain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

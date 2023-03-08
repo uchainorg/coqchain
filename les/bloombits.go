@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/bitutil"
-	"github.com/Ankr-network/coqchain/light"
+	"github.com/uchainorg/coqchain/common/bitutil"
+	"github.com/uchainorg/coqchain/light"
 )
 
 const (

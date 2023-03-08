@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/metrics"
 )
 
 var (

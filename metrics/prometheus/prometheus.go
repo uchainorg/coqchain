@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

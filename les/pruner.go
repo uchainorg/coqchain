@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
 )

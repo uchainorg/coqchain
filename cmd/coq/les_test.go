@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 type gethrpc struct {

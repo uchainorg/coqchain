@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

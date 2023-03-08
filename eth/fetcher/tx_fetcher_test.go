@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 var (

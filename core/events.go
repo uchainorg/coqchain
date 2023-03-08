@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

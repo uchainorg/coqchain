@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
-	"github.com/Ankr-network/coqchain/metrics/prometheus"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
+	"github.com/uchainorg/coqchain/metrics/prometheus"
 )
 
 type exp struct {

@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/eth/tracers"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/eth/tracers"
+	"github.com/uchainorg/coqchain/params"
 )
 
 type account struct{}

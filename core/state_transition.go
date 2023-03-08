@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	cmath "github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	cmath "github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

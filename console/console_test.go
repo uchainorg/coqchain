@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/console/prompt"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/eth"
-	"github.com/Ankr-network/coqchain/eth/ethconfig"
-	"github.com/Ankr-network/coqchain/internal/jsre"
-	"github.com/Ankr-network/coqchain/miner"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/console/prompt"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/eth"
+	"github.com/uchainorg/coqchain/eth/ethconfig"
+	"github.com/uchainorg/coqchain/internal/jsre"
+	"github.com/uchainorg/coqchain/miner"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 const (

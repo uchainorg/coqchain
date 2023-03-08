@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/log"
 )
 
 const (

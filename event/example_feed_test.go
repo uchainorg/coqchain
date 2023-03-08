@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/event"
+	"github.com/uchainorg/coqchain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

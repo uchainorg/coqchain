@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

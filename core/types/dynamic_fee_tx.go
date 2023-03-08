@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 type DynamicFeeTx struct {

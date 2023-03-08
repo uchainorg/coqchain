@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/eth/protocols/snap"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/eth/protocols/snap"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

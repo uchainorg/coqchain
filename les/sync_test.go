@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/light"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/light"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/Ankr-network/coqchain/issues/20097 for more detail.
+	// See https://github.com/uchainorg/coqchain/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

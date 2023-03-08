@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
 )
 
 type stateTest struct {

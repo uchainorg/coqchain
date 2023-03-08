@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/utils/extdb"
-	"github.com/Ankr-network/coqchain/utils/staker"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/utils/staker"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/forkid"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/forkid"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

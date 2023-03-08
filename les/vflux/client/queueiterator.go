@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/nodestate"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

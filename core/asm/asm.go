@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

@@ -17,7 +17,7 @@
 // Package bind generates coqchain contract Go bindings.
 //
 // Detailed usage document and tutorial available on the coqchain Wiki page:
-// https://github.com/Ankr-network/coqchain/wiki/Native-DApps:-Go-bindings-to-coqchain-contracts
+// https://github.com/uchainorg/coqchain/wiki/Native-DApps:-Go-bindings-to-coqchain-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

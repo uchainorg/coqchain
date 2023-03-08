@@ -26,17 +26,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/consensus/posa"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/eth/gasprice"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/miner"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/consensus/posa"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/eth/gasprice"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/miner"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // FullNodeGPO contains default gasprice oracle settings for full node.

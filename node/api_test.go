@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/accounts/abi/bind/backends"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/accounts/abi/bind/backends"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

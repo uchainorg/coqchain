@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/internal/testlog"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/internal/testlog"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

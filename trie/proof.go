@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/ethdb/memorydb"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb/memorydb"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

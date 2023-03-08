@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/tests"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

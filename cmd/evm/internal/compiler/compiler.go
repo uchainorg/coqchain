@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/core/asm"
+	"github.com/uchainorg/coqchain/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

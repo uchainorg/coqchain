@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p/enr"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p/enr"
+	"github.com/uchainorg/coqchain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

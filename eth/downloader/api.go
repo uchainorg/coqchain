@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

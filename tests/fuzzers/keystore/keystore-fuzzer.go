@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/Ankr-network/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

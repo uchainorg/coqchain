@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/event"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/event"
 )
 
 var testSigData = make([]byte, 32)

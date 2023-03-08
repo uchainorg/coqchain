@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/les/utils"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

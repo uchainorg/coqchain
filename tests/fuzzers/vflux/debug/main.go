@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/tests/fuzzers/vflux"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/tests/fuzzers/vflux"
 )
 
 func main() {

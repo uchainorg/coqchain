@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/rlp"
 	"github.com/stretchr/testify/require"
 )
 

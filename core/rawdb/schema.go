@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

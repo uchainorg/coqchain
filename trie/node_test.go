@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/metrics"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

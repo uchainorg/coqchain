@@ -7,12 +7,12 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethclient"
-	"github.com/Ankr-network/coqchain/tests/contracts/store"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethclient"
+	"github.com/uchainorg/coqchain/tests/contracts/store"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

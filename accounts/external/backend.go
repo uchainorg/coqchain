@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/rpc"
-	"github.com/Ankr-network/coqchain/signer/core/apitypes"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/rpc"
+	"github.com/uchainorg/coqchain/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

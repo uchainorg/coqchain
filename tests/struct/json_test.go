@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 type Student struct {

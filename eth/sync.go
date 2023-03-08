@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/eth/protocols/eth"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/eth/protocols/eth"
+	"github.com/uchainorg/coqchain/log"
 )
 
 const (

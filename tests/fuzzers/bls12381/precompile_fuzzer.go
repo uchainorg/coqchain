@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 const (

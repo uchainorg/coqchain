@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/state"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/params"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/state"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/params"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

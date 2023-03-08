@@ -29,11 +29,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/Ankr-network/coqchain/console/prompt"
-	"github.com/Ankr-network/coqchain/internal/jsre"
-	"github.com/Ankr-network/coqchain/internal/jsre/deps"
-	"github.com/Ankr-network/coqchain/internal/web3ext"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/console/prompt"
+	"github.com/uchainorg/coqchain/internal/jsre"
+	"github.com/uchainorg/coqchain/internal/jsre/deps"
+	"github.com/uchainorg/coqchain/internal/web3ext"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

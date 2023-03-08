@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/bitutil"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/bitutil"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/log"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/Ankr-network/coqchain/core/types"
+import "github.com/uchainorg/coqchain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

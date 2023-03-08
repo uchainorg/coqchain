@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/core/vm"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already
@@ -1864,7 +1864,7 @@ func testRepair(t *testing.T, tt *rewindTest, snapshots bool) {
 	}
 }
 
-// TestIssue23496 tests scenario described in https://github.com/Ankr-network/coqchain/pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in https://github.com/uchainorg/coqchain/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/Ankr-network/coqchain/internal/ethapi"
-	"github.com/Ankr-network/coqchain/internal/jsre/deps"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/signer/core"
-	"github.com/Ankr-network/coqchain/signer/storage"
+	"github.com/uchainorg/coqchain/internal/ethapi"
+	"github.com/uchainorg/coqchain/internal/jsre/deps"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/signer/core"
+	"github.com/uchainorg/coqchain/signer/storage"
 )
 
 var (

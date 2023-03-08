@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb"
 )
 
 func openTestdb(t *testing.T) *BoltDB {

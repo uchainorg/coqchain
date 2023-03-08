@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

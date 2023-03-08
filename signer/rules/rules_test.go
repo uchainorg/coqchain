@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/accounts"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/internal/ethapi"
-	"github.com/Ankr-network/coqchain/signer/core"
-	"github.com/Ankr-network/coqchain/signer/core/apitypes"
-	"github.com/Ankr-network/coqchain/signer/storage"
+	"github.com/uchainorg/coqchain/accounts"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/internal/ethapi"
+	"github.com/uchainorg/coqchain/signer/core"
+	"github.com/uchainorg/coqchain/signer/core/apitypes"
+	"github.com/uchainorg/coqchain/signer/storage"
 )
 
 const JS = `

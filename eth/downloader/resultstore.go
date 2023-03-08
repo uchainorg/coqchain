@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

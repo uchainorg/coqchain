@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/simulations"
-	"github.com/Ankr-network/coqchain/p2p/simulations/adapters"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/simulations"
+	"github.com/uchainorg/coqchain/p2p/simulations/adapters"
+	"github.com/uchainorg/coqchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

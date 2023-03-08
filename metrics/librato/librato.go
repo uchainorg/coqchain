@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

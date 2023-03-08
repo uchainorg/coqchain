@@ -57,9 +57,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Ankr-network/coqchain/crypto/signify"
-	"github.com/Ankr-network/coqchain/internal/build"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/crypto/signify"
+	"github.com/uchainorg/coqchain/internal/build"
+	"github.com/uchainorg/coqchain/params"
 	"github.com/cespare/cp"
 )
 
@@ -996,7 +996,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.coqchain", "-v", "github.com/Ankr-network/coqchain/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.coqchain", "-v", "github.com/uchainorg/coqchain/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -1125,7 +1125,7 @@ func doXCodeFramework(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the iOS XCode framework
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/Ankr-network/coqchain/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/uchainorg/coqchain/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

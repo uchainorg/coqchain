@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/signer/core/apitypes"
-	"github.com/Ankr-network/coqchain/signer/fourbyte"
+	"github.com/uchainorg/coqchain/signer/core/apitypes"
+	"github.com/uchainorg/coqchain/signer/fourbyte"
 )
 
 func init() {

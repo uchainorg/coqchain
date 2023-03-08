@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/accounts/keystore"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/common/math"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/signer/core"
+	"github.com/uchainorg/coqchain/accounts/keystore"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/common/math"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/signer/core"
 )
 
 var typesStandard = core.Types{

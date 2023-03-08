@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Ankr-network/coqchain"
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/event"
+	"github.com/uchainorg/coqchain"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

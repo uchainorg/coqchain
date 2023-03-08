@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

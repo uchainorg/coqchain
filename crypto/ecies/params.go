@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/Ankr-network/coqchain/crypto"
+	ethcrypto "github.com/uchainorg/coqchain/crypto"
 )
 
 var (

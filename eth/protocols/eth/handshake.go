@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/forkid"
-	"github.com/Ankr-network/coqchain/p2p"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/forkid"
+	"github.com/uchainorg/coqchain/p2p"
 )
 
 const (

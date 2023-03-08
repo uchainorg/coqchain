@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func TestFacebook(t *testing.T) {

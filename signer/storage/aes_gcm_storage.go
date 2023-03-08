@@ -25,7 +25,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/log"
 )
 
 type storedCredential struct {

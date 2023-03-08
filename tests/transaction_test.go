@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/params"
 )
 
 func TestTransaction(t *testing.T) {

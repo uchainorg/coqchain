@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Ankr-network/coqchain/cmd/utils"
-	"github.com/Ankr-network/coqchain/internal/debug"
-	"github.com/Ankr-network/coqchain/internal/flags"
+	"github.com/uchainorg/coqchain/cmd/utils"
+	"github.com/uchainorg/coqchain/internal/debug"
+	"github.com/uchainorg/coqchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

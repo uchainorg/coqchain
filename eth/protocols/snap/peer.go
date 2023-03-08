@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/core/types"
+	"github.com/uchainorg/coqchain/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

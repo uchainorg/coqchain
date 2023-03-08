@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/math"
+	"github.com/uchainorg/coqchain/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

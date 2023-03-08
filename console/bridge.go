@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/console/prompt"
-	"github.com/Ankr-network/coqchain/internal/jsre"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/console/prompt"
+	"github.com/uchainorg/coqchain/internal/jsre"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/dop251/goja"
 )
 

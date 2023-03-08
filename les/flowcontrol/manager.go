@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/mclock"
-	"github.com/Ankr-network/coqchain/common/prque"
+	"github.com/uchainorg/coqchain/common/mclock"
+	"github.com/uchainorg/coqchain/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

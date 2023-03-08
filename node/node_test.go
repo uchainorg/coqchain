@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

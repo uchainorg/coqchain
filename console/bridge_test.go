@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/Ankr-network/coqchain/internal/jsre"
+	"github.com/uchainorg/coqchain/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/eth/protocols/eth"
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/p2p/msgrate"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/eth/protocols/eth"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/p2p/msgrate"
 )
 
 const (

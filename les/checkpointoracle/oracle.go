@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/accounts/abi/bind"
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/contracts/checkpointoracle"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/accounts/abi/bind"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/contracts/checkpointoracle"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/core/vm"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

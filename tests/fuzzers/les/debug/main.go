@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Ankr-network/coqchain/tests/fuzzers/les"
+	"github.com/uchainorg/coqchain/tests/fuzzers/les"
 )
 
 func main() {

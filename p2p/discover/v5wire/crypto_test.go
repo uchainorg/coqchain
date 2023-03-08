@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common/hexutil"
-	"github.com/Ankr-network/coqchain/crypto"
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/common/hexutil"
+	"github.com/uchainorg/coqchain/crypto"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

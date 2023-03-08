@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Ankr-network/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

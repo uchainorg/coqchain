@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Ankr-network/coqchain/metrics"
+	"github.com/uchainorg/coqchain/metrics"
 	"github.com/stretchr/testify/require"
 )
 

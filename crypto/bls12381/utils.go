@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/common"
 )
 
 func bigFromHex(hex string) *big.Int {

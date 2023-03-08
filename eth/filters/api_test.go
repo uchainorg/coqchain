@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

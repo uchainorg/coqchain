@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/eth/protocols/eth"
-	"github.com/Ankr-network/coqchain/eth/protocols/snap"
-	"github.com/Ankr-network/coqchain/p2p"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/eth/protocols/eth"
+	"github.com/uchainorg/coqchain/eth/protocols/snap"
+	"github.com/uchainorg/coqchain/p2p"
 )
 
 var (

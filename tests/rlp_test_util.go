@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

@@ -22,12 +22,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/rawdb"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/ethdb/boltdb"
-	"github.com/Ankr-network/coqchain/ethdb/memorydb"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/rawdb"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/ethdb/boltdb"
+	"github.com/uchainorg/coqchain/ethdb/memorydb"
+	"github.com/uchainorg/coqchain/rlp"
 	"github.com/VictoriaMetrics/fastcache"
 )
 

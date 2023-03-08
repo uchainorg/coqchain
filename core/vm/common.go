@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/common/math"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/common/math"
 	"github.com/holiman/uint256"
 )
 

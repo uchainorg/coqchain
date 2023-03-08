@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus/ethash"
-	"github.com/Ankr-network/coqchain/core"
-	"github.com/Ankr-network/coqchain/eth/downloader"
-	"github.com/Ankr-network/coqchain/eth/gasprice"
-	"github.com/Ankr-network/coqchain/miner"
-	"github.com/Ankr-network/coqchain/params"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus/ethash"
+	"github.com/uchainorg/coqchain/core"
+	"github.com/uchainorg/coqchain/eth/downloader"
+	"github.com/uchainorg/coqchain/eth/gasprice"
+	"github.com/uchainorg/coqchain/miner"
+	"github.com/uchainorg/coqchain/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/crypto"
 )
 
 // The ABI holds information about a contract's context and available

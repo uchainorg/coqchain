@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/Ankr-network/coqchain/les/utils"
-	"github.com/Ankr-network/coqchain/rlp"
+	"github.com/uchainorg/coqchain/les/utils"
+	"github.com/uchainorg/coqchain/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

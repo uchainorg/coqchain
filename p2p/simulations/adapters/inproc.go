@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/event"
-	"github.com/Ankr-network/coqchain/log"
-	"github.com/Ankr-network/coqchain/node"
-	"github.com/Ankr-network/coqchain/p2p"
-	"github.com/Ankr-network/coqchain/p2p/enode"
-	"github.com/Ankr-network/coqchain/p2p/simulations/pipes"
-	"github.com/Ankr-network/coqchain/rpc"
+	"github.com/uchainorg/coqchain/event"
+	"github.com/uchainorg/coqchain/log"
+	"github.com/uchainorg/coqchain/node"
+	"github.com/uchainorg/coqchain/p2p"
+	"github.com/uchainorg/coqchain/p2p/enode"
+	"github.com/uchainorg/coqchain/p2p/simulations/pipes"
+	"github.com/uchainorg/coqchain/rpc"
 	"github.com/gorilla/websocket"
 )
 

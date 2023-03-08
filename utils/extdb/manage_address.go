@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/core/contracts"
-	"github.com/Ankr-network/coqchain/log"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/core/contracts"
+	"github.com/uchainorg/coqchain/log"
 	"go.etcd.io/bbolt"
 )
 

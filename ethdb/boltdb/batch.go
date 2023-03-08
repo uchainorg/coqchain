@@ -1,9 +1,9 @@
 package boltdb
 
 import (
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/ethdb"
-	"github.com/Ankr-network/coqchain/utils"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/ethdb"
+	"github.com/uchainorg/coqchain/utils"
 	"go.etcd.io/bbolt"
 )
 

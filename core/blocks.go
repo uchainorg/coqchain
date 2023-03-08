@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/Ankr-network/coqchain/common"
+import "github.com/uchainorg/coqchain/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

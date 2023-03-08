@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Ankr-network/coqchain/accounts/abi"
-	"github.com/Ankr-network/coqchain/common"
+	"github.com/uchainorg/coqchain/accounts/abi"
+	"github.com/uchainorg/coqchain/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

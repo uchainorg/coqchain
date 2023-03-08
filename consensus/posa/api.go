@@ -19,11 +19,11 @@ package posa
 import (
 	"fmt"
 
-	"github.com/Ankr-network/coqchain/common"
-	"github.com/Ankr-network/coqchain/consensus"
-	"github.com/Ankr-network/coqchain/core/types"
-	"github.com/Ankr-network/coqchain/rpc"
-	"github.com/Ankr-network/coqchain/utils/extdb"
+	"github.com/uchainorg/coqchain/common"
+	"github.com/uchainorg/coqchain/consensus"
+	"github.com/uchainorg/coqchain/core/types"
+	"github.com/uchainorg/coqchain/rpc"
+	"github.com/uchainorg/coqchain/utils/extdb"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

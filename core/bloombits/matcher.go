@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Ankr-network/coqchain/common/bitutil"
-	"github.com/Ankr-network/coqchain/crypto"
+	"github.com/uchainorg/coqchain/common/bitutil"
+	"github.com/uchainorg/coqchain/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong
